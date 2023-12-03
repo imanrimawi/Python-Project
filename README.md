@@ -2,25 +2,21 @@
 [Link of Video - Program Running](https://drive.google.com/file/d/1nhUstwwuPlSxkA1hzbjwGpFb59yCVny4/view?usp=sharing)
 
 ## Development plan:
-VERSION 1 of project
-| Task / goal                    | Person        | 
+### VERSION 1 of project - goals and individual tasks:
+| Task / goal                    | Person Responsible      | 
 | -------------                  |:-------------:| 
-| Intro + get user input between (rock, paper, scissors)  | Sima |
+| Intro (rules) + get user input from user : (rock, paper, scissors)  | Sima |
 | Code for program's random generator  | Masa           |         
-| Program dictates who wins based off of rules            | Iman      |   
+| Program dictates who wins based off of rules (if, else, elif)           | Iman      |   
 | Ask user if they want to play again + simple syntax error | Sima|
 | Add comments along the way | Masa |
 | Display scoreboard after each round | Iman |
 
-COMPLETED WORK:
-*separate paragraph*
-Milestone 1: intro + user input + random generator
-*separate paragraph*
-Milestone 2: determine_winner function completed + ask user if they want to play again
-*separate paragraph*
-Milestone 3: simply syntax error + scoreboard + 
-*separate paragraph*
-(comments during every milestone)
+#### COMPLETED WORK:
+##### Milestone 1: intro + user input + random generator
+##### Milestone 2: determine_winner function completed + ask user if they want to play again
+##### Milestone 3: simply syntax error + scoreboard + 
+##### (comments where written during every milestone)
 
 
 ## Description of the program's purpose:
