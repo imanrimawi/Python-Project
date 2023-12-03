@@ -1,6 +1,24 @@
 # Python-Project- ROCK PAPER SCISSORS
 [Link of Video - Program Running](https://drive.google.com/file/d/1nhUstwwuPlSxkA1hzbjwGpFb59yCVny4/view?usp=sharing)
 
+## Development plan:
+VERSION 1 of project
+| Task / goal                    | Person        | 
+| -------------                  |:-------------:| 
+| Intro + get user input between (rock, paper, scissors)  | Sima |
+| Code for program's random generator  | Masa           |         
+| Program dictates who wins based off of rules            | Iman      |   
+| Ask user if they want to play again + simple syntax error | Sima|
+| Add comments along the way | Masa |
+| Display scoreboard after each round | Iman |
+
+COMPLETED WORK:
+Milestone 1: intro + user input + random generator
+Milestone 2: determine_winner function completed + ask user if they want to play again
+Milestone 3: simply syntax error + scoreboard + 
+(comments during every milestone)
+
+
 ## Description of the program's purpose:
 ##### The presumed audience of this game is for children, or teenagers who have access to computers, and want to play a game. The main purpose of its existence is for users who don’t have another person to play rock paper scissors with, but can rather play alone with a program run by the computer's random choice. 
 
@@ -26,4 +44,6 @@
 ##### The above code depicts the syntax error that we had to include in the program, for if the user inputs something other than “rock, paper, or scissors.” A problem we encountered while creating this code was by making it an “if” statement, rather than a “while loop.” What this did was simply ask again, without informing the user that their input was an invalid choice. We were super stuck, because we didn’t really know why the “if” statement wasn’t doing what we wanted it to do, but after researching and converting it, our problem was solved, and the code was then able to do what we wanted it to do. 
 
 *****
+
+
 
