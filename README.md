@@ -18,6 +18,7 @@
 ##### Milestone 3: simply syntax error + scoreboard + 
 ##### (comments where written during every milestone)
 
+*****
 
 ## Description of the program's purpose:
 ##### The presumed audience of this game is for children, or teenagers who have access to computers, and want to play a game. The main purpose of its existence is for users who don’t have another person to play rock paper scissors with, but can rather play alone with a program run by the computer's random choice. 
