@@ -11,7 +11,7 @@ def print_welcome_message():
   )
   print("Now let's start the game!")
 
-#the "print_welcome_message" function prints a welcome message to the user. It uses the "format" function to insert the user's name into the message.
+# the "print_welcome_message" function prints a welcome message to the user. It uses the "format" function to insert the user's name into the message.
 
 def get_user_choice():
   user_choice = input("Enter a choice (rock, paper, scissors): ").lower()
