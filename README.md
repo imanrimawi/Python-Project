@@ -13,9 +13,13 @@ VERSION 1 of project
 | Display scoreboard after each round | Iman |
 
 COMPLETED WORK:
+*separate paragraph*
 Milestone 1: intro + user input + random generator
+*separate paragraph*
 Milestone 2: determine_winner function completed + ask user if they want to play again
+*separate paragraph*
 Milestone 3: simply syntax error + scoreboard + 
+*separate paragraph*
 (comments during every milestone)
 
 
