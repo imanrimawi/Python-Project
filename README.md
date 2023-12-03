@@ -2,7 +2,7 @@
 [Link of Video - Program Running](https://drive.google.com/file/d/1nhUstwwuPlSxkA1hzbjwGpFb59yCVny4/view?usp=sharing)
 
 ## Description of the program's purpose:
-##### The presumed audience of this game is for children, or teenagers who have access to computers, and want to play a game. The main purpose of its existence is for users who don’t have another person to play rock paper scissors with, but can rather play alone with a program run by the computer's random choice). 
+##### The presumed audience of this game is for children, or teenagers who have access to computers, and want to play a game. The main purpose of its existence is for users who don’t have another person to play rock paper scissors with, but can rather play alone with a program run by the computer's random choice. 
 
 *****
 
