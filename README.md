@@ -1,4 +1,5 @@
-# Python-Project- ROCK PAPER SCISSORS - VERSION 1
+# Python-Project- ROCK PAPER SCISSORS 
+# VERSION 1
 [Link of Video - (VERSION 1) Program Running](https://drive.google.com/file/d/1nhUstwwuPlSxkA1hzbjwGpFb59yCVny4/view?usp=sharing)
 ## Development plan:
 ### VERSION 1 of project - goals and individual tasks:
@@ -45,7 +46,9 @@
 
 *****
 
-# Python-Project- ROCK PAPER SCISSORS - VERSION 2
+# Python-Project- ROCK PAPER SCISSORS 
+# VERSION 2
+### [Link of Video - (VERSION 2) Program Running](https://drive.google.com/file/d/1a0EgLPEpw_4__HRfSuTq9wbdYGfJTElg/view?usp=sharing)
 
 ## Development plan:
 ### VERSION 2 of project - goals and individual tasks:
