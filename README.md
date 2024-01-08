@@ -59,16 +59,16 @@
 
 #### COMPLETED WORK:
 ##### Milestone 1: unlock fireball after winning three rounds - fireball beats all other plays
-##### Milestone 2: import csv and create spreadsheat
+##### Milestone 2: import csv and create spreadsheet
 ##### Milestone 3: display csv after (stop playing)
-##### Milestone 4: multi player - 2+ players can play vs the computer, and compete over who wins the most rounds
+##### Milestone 4: multiplayer - 2+ players can play vs the computer, and compete over who wins the most rounds
 ##### (comments where written during every milestone)
 
 *****
 
 
 ## Description of the program's purpose:
-##### The main purpose that distinguishes our version 1 of the game, from version 2, are the addtional feautres that where added. The first one is the Multi Player feature vs the computer. This feature allows multiple players to play vs the computer at once, and see who can win first. Our second feature is the CSV document, and storing the scoreboard data. This allows for the user to see who is winning and the top three winner on the scoreboard. The CSV updates this list everytime somebody playes. Our last and final key feature of version 2 was the fireball. When the user beats the computer by 3 points, they have the option to use a "fireball" for one round, which beats all other plays. All of these new additions allowed us to take our game to the next level. This way player wont only able to play rock paper scissors when they dont have a partner, but rather play a more interactive and exciting rock paper scissors, which is unique to any other. Overall, this program was intended for people who want a more fun version of rock paper scissors which they wont be able to find anywhere else, and can be played with or without others. 
+##### The main purpose that distinguishes our version 1 of the game, from version 2, are the additional features that were added. The first one is the MultiPlayer feature vs the computer. This feature allows multiple players to play vs the computer at once, and see who can win first. Our second feature is the CSV document, and storing the scoreboard data. This allows for the user to see who is winning and the top three winners on the scoreboard. The CSV updates this list every time somebody plates. Our last and final key feature of version 2 was the fireball. When the user beats the computer by 3 points, they have the option to use a "fireball" for one round, which beats all other plays. All of these new additions allowed us to take our game to the next level. This way players are not only able to play rock paper scissors when they don't have a partner, but rather play more interactive and exciting rock paper scissors, which is unique to any other. Overall, this program was intended for people who want a more fun version of rock paper scissors which they won't be able to find anywhere else, and can be played with or without others. 
 
 *****
 
@@ -76,11 +76,11 @@
 ## Summary of the program's functionality:
 ##### 1. The function starts by importing “random,” "os," and "csv."  * This allows the computer to choose a random choice between rock, paper, scissors, providing functions for interacting with the operating system, and  for saving and displaying leaderboard scores using a CSV file. 
 ##### 2. Next, the function introduces the rock, paper, scissors game to the user. It gives a run down of the rules, and asks the user for their name. 
-##### 3. The game will ask if the user wants to play multi player, or alone. If the user chooses to play alone, the game will begin. If the user chooses multi player, they will enter the amount of players and the names of each player. Every single player will go in turns, and play one round vs the computer. 
+##### 3. The game will ask if the user wants to play multiplayer, or alone. If the user chooses to play alone, the game will begin. If the user chooses multiplayer, they will enter the amount of players and the names of each player. Every single player will go in turns, and play one round vs the computer. 
 ###### 4. Next, the computer will randomly choose from rock, paper, or scissors (import random) , and then the user is given the choice to select one of the same options. The program will only accept one of those three choices. If not, it will ask the user to select again. 
-##### 4. The following determine_winner function checks if the user's choice and the computer's choice are the same. If they are, then according to game rules, it is a tie. If the user's choice is rock and the computer's choice is scissors, or paper, the user wins. If the computer's choice is rock and the user's choice is scissors, or paper, the computer wins. It will display the score board between the computer and user accordingly, and will end by asking if the user wants to play another round, or not. If they do want to play again, the process will repeat without the introduction, but if not, it will end.
-##### 5. If the user wins by three, they will have the option to use the FIREBALL for one round which is beats every other move.
-##### 6. When and if the user is done playing, the scoreboard will display, respresenting the top three users at the very top of the scoreboard. 
+##### 4. The following determine_winner function checks if the user's choice and the computer's choice are the same. If they are, then according to game rules, it is a tie. If the user's choice is rock and the computer's choice is scissors, or paper, the user wins. If the computer's choice is rock and the user's choice is scissors, or paper, the computer wins. It will display the scoreboard between the computer and user accordingly, and will end by asking if the user wants to play another round, or not. If they do want to play again, the process will repeat without the introduction, but if not, it will end.
+##### 5. If the user wins by three, they will have the option to use the FIREBALL for one round which beats every other move.
+##### 6. When and if the user is done playing, the scoreboard will display, representing the top three users at the very top of the scoreboard. 
 
 *****
 
@@ -109,7 +109,7 @@
 #####  player_scores[player] = int(saved_player['score'])
 #####                        computer_scores[player] = int(saved_player['computer_score'])
 
-##### The above code depicts some snippets which we included in order to use the CSV file and display a scoreboard. This part definetley took the longest. We used a lot of resources online to complete this and apply it to our personal code. This includes the python website (python.org) , as well as numerous youtube videos. The function "load_and_display_top_players:" it reads the content of the CSV file and extracts player data. It prints the top 3 players (or all players if there are less than 3) with their names and scores. It then updates global dictionaries (player_names, player_scores, and computer_scores) based on the information retrieved from the CSV file.
+##### The above code depicts some snippets which we included in order to use the CSV file and display a scoreboard. This part definitely took the longest. We used a lot of resources online to complete this and apply it to our personal code. This includes the python website (python.org) , as well as numerous youtube videos. The function "load_and_display_top_players:'' it reads the content of the CSV file and extracts player data. It prints the top 3 players (or all players if there are less than 3) with their names and scores. It then updates global dictionaries (player_names, player_scores, and computer_scores) based on the information retrieved from the CSV file.
 
 
 
