@@ -85,31 +85,19 @@
 *****
 
 ## Break through moment with code segments:
-##### def load_and_display_top_players(file_path):
-##### if os.path.exists(file_path):
-#####   global player_names
-#####   global player_scores
-#####   global computer_scores
-##### with open(file_path, 'r') as file:
-#####            reader = csv.reader(file)
-#####            header = next(reader)
-#####            data = [dict(zip(header, row)) for row in reader]
-#####            data_sorted = sorted(data, key=lambda x: int(x['score']), reverse=True)
-#####            if len(data) >= 3:
-#####              print("\nPrevious Top 3 Players: ")
-#####                for saved_player in data_sorted[:3]:
-#####                print(f"===> Player: {saved_player['name']}, Score: {saved_player['score']}")
-#####            else:
-#####              print("Previous Top Players: ")
-#####               for saved_player in data_sorted:
-#####                   print(f"===> Player: {saved_player['name']}, Score: {saved_player['score']}")
-##### for player in player_names:
-#####               for saved_player in data_sored:
-#####                 if saved_player['name'] == player:
-#####  player_scores[player] = int(saved_player['score'])
-#####                        computer_scores[player] = int(saved_player['computer_score'])
+##### segment 1:
+#####    def save_scores_to_file(file_path, player_name, player_score, computer_score):
 
-##### The above code depicts some snippets which we included in order to use the CSV file and display a scoreboard. This part definitely took the longest. We used a lot of resources online to complete this and apply it to our personal code. This includes the python website (python.org) , as well as numerous youtube videos. The function "load_and_display_top_players:'' it reads the content of the CSV file and extracts player data. It prints the top 3 players (or all players if there are less than 3) with their names and scores. It then updates global dictionaries (player_names, player_scores, and computer_scores) based on the information retrieved from the CSV file.
+
+##### segment 2:
+ #####   display_scoreboard(player_names[index], player_scores[player_names[index]], computer_scores[player_names[index]])
+
+  #####  if not do_continue(player_names[index]):
+     #####   save_scores_to_file(scores_filename, player_names[index], player_scores[player_names[index]], computer_scores[player_names[index]])
+
+
+##### The above code depicts some snippets which we included in order to use the CSV file and display a scoreboard. This part definitely took the longest. We used a lot of resources online to complete this and apply it to our personal code. This includes research coming from the python website (python.org) , as well as numerous youtube videos. The above code shows 2 small segments of code for the CSV component. The first segment defines a function (save_scores_to_file). The second segment displays a scoreboard and then checks if the player wants to continue playing. If the player doesn't want to, it saves scores using the function defined in the first segment. An issue we encountered was that once the game reached its end and a player didn't want to continue, the game wouldn't move on to the next player because of an error encountered while trying to save the data. We realized that in the save_scores_to_file function (in the second segment), it was being given 4 arguments whereas the definition of the function (in the first segment) was originally only given 3 parameters (there was no "computer_score" parameter). Once that was added in the definition, the function was now expecting to get 4 arguments, so saving the data became a success.
+
 
 
 
